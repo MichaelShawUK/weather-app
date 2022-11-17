@@ -47,19 +47,19 @@ function setBackground(data) {
   console.log(data.weather);
   switch (data.weather) {
     case 'Clear':
-      document.body.style['background-image'] = "url('/img/clear.jpg')";
+      document.body.style['background-image'] = "url('./img/clear.jpg')";
       break;
     case 'Clouds':
-      document.body.style['background-image'] = "url('/img/cloud.jpg')";
+      document.body.style['background-image'] = "url('./img/cloud.jpg')";
       break;
     case 'Rain':
-      document.body.style['background-image'] = "url('/img/rain.jpg')";
+      document.body.style['background-image'] = "url('./img/rain.jpg')";
       break;
     case 'Snow':
-      document.body.style['background-image'] = "url('/img/snow.jpg')";
+      document.body.style['background-image'] = "url('./img/snow.jpg')";
       break;
     default:
-      document.body.style['background-image'] = "url('/img/default.jpg')";
+      document.body.style['background-image'] = "url('./img/default.jpg')";
   }
 }
 
