@@ -9,7 +9,27 @@
   <script type="module" src="main.js" defer></script>
 </head>
 <body>
-  <input type="text" id="location">
-  <button id="get-location-btn">GO</button>
+  <div id="container">
+    <div>
+      <input type="text" id="location" placeholder="'London' or 'London, GB'">
+      <button id="get-location-btn">GO</button>
+    </div>
+    <div id="output">
+      <div class="switch">
+        <span>°C</span>
+        <input type="checkbox" id="temp-switch" /><label for="temp-switch"></label>
+        <span>°F</span>
+      </div>
+      <div class="switch">
+        <span>m/s</span>
+        <input type="checkbox" id="wind-switch" /><label for="wind-switch"></label>
+        <span>mph</span>
+      </div>
+      <div id="place"></div>
+      <div id="weather"></div>
+      <div id="temp"></div>
+      <div id="wind"></div>
+    </div>
+  </div>
 </body>
 </html>

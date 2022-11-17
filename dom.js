@@ -1,2 +1,9 @@
 export const location = document.getElementById('location');
 export const getLocationBtn = document.getElementById('get-location-btn');
+export const output = document.getElementById('output');
+export const place = document.getElementById('place');
+export const weather = document.getElementById('weather');
+export const temp = document.getElementById('temp');
+export const wind = document.getElementById('wind');
+export const tempSwitch = document.getElementById('temp-switch');
+export const windSwitch = document.getElementById('wind-switch');
